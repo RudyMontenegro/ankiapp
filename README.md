@@ -4,6 +4,8 @@ Repaso de gramática inglesa con situaciones en español. HTML, CSS y JavaScript
 
 ## Abrir la app
 
+Versión web: [Grammar Recall](https://rudymontenegro.github.io/ankiapp/).
+
 Abre `index.html` en un navegador moderno. Conserva `styles.css`, `cards.js`, `engine.js` y `app.js` junto al HTML. No necesitas instalar nada ni iniciar un servidor. La app funciona sin conexión cuando sus archivos están disponibles.
 
 Elige estructuras, modo y 10 o 20 tarjetas. En construcción puedes responder mentalmente o por escrito. Revela y evalúa con Otra vez, Difícil o Fácil. La comparación escrita reconoce modelos, alternativas y contracciones; una diferencia textual no significa que tu traducción sea incorrecta.
@@ -28,7 +30,7 @@ Si el almacenamiento falla, se trabaja en memoria y se muestra un aviso. Datos c
 
 Prueba abrir `index.html` con los archivos asociados disponibles, iniciar una sesión, evaluar, recargar y cerrar/reabrir el navegador. En Android y especialmente iOS, el visor de archivos puede no ejecutar JavaScript, cargar los archivos asociados o conservar `localStorage`. En navegación privada el progreso puede ser temporal.
 
-Si la apertura local falla, publica los cinco archivos de la app en un alojamiento estático HTTPS. Por ejemplo, sube los archivos a un repositorio de GitHub; en Settings → Pages elige publicar desde la rama que contiene el sitio y su carpeta raíz. Abre la dirección que indique el alojamiento y verifica que el progreso persista al recargar. No subas datos personales ni necesitas un backend. Esta versión no ha sido publicada.
+La app se publica con GitHub Pages desde la raíz de la rama `main` del repositorio [RudyMontenegro/ankiapp](https://github.com/RudyMontenegro/ankiapp). Los cambios enviados a `main` se publican automáticamente. No requiere backend ni mantener una computadora encendida. El progreso se guarda en cada navegador y no se sincroniza entre dispositivos.
 
 Un sitio HTTPS facilita el uso móvil, pero este MVP no tiene service worker: no garantiza recarga offline desde una URL web. La ejecución offline garantizada por diseño es desde los archivos disponibles localmente. PWA e instalación quedan pendientes.
 
